@@ -12,3 +12,18 @@ As child will understand how the game works, new features will be added to grow 
   - Button2 decreases movement speed
   - Button5 increases movement speed
   - Button6 and Button7 pressed simultaneously quits the game
+
+## To Do for next versions:
+### step 1
+- [ ] sounds
+- [ ] randomly generated objects to collect
+- [ ] scoring ( by symbols not numbers )
+### step 2
+- [ ] obstacles
+- [ ] exchange squares for cartoons
+
+
+## Screenshots
+V1.0
+
+![screen001](/readme-files/001.jpg)
