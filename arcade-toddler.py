@@ -34,6 +34,7 @@ class GameObject():
             self.posY = screen_height-self.sizeY
 
 
+
 pygame.init()
 clock = pygame.time.Clock()
 pygame.mouse.set_visible(False)
