@@ -1,3 +1,4 @@
+# Ver 1.0.1
 import pygame
 import random
 

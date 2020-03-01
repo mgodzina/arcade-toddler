@@ -5,7 +5,7 @@ Game created for my toddler to play on Arcade Cabinet powered by RetroPie
 
 As child will understand how the game works, new features will be added to grow the game with him.
 
-## Version 1.0 features:
+## Version 1.0.1 features:
 - joystick control
   - Stick controlls movement
   - Button0 changes hero color
@@ -27,3 +27,9 @@ As child will understand how the game works, new features will be added to grow 
 V1.0
 
 ![screen001](/readme-files/001.jpg)
+
+## Version History:
+
+1.0.1 Rewriten code using more classes and functions - no features added.
+
+1.0 First release.
