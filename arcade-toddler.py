@@ -78,9 +78,7 @@ class Controls():
             if object.speed > 5: object.speed -= 5
 
     def joyquit(self):
-        if pygame.joystick.Joystick(self.joyID).get_button(self.selectBtn) and pygame.joystick.Joystick(
-                self.joyID).get_button(
-                self.startBtn):
+        if pygame.joystick.Joystick(self.joyID).get_button(self.selectBtn) and pygame.joystick.Joystick(self.joyID).get_button(self.startBtn):
             return True
         return False
 
@@ -114,7 +112,7 @@ while not done:
 
     joy.color(hero)
 
-    done = joy.joyquit()
+    if joy.joyquit(): done = True
 
     # main loop game functions
     hero.move()
